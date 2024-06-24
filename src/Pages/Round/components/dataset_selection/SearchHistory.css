@@ -1,0 +1,52 @@
+.searchHistory {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.searchHistory__header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.searchHistory__datasets {
+    display: flex;
+    justify-content: space-around;
+    max-height: 500px;
+    overflow: auto;
+    transition: height 500ms ease-in-out;
+}
+
+.searchHistory__datasets::-webkit-scrollbar {
+    display: none;
+}
+
+.searchHistory__datasets--open {
+    height: 300px;
+}
+
+.searchHistory__datasets--closed {
+    height: 0;
+}
+
+.searchHistory__dataset {
+    margin: 0 20px;
+}
+
+.searchHistory__dataset:hover {
+    cursor: pointer;
+}
+
+.searchHistory__arrow {
+    transition: rotate 500ms linear;
+}
+
+.searchHistory__arrow--origin {
+    rotate: 0deg;
+}
+
+.searchHistory__arrow--rotate {
+    rotate: 90deg;
+}

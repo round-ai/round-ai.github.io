@@ -1,0 +1,44 @@
+.dataset__image, .dataset__image--selected, .dataset__checkIcon--selected {
+    width: 150px;
+    height: 100px;
+}
+
+.dataset__image, .dataset__image--selected {
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.dataset, .dataset--selected {
+    padding: 15px;
+}
+
+.dataset__description {
+    font-size: 10px;
+    width: 150px;
+}
+
+.dataset--selected {
+    border-radius: 15px;
+    position: relative;
+}
+
+.dataset__image--selected {
+    opacity: 60%;
+}
+
+.dataset__checkIcon--selected {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.dataset__checkIcon--unselected {
+    display: none;
+}
+
+.dataset__checkIcon--selected > .MuiSvgIcon-root {
+    width: 90px;
+    height: 60px;
+}

@@ -1,0 +1,66 @@
+.chats {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chat {
+    padding: 10px 20px;
+    border-radius: 15px;
+    max-width: 80%;
+}
+
+.chat > p {
+    text-align: justify;
+}
+
+.userChat {
+    align-self: end;
+}
+
+.assistantChat {
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+}
+
+.assistantChat > img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 5px;
+}
+
+.searchChat {
+    position: relative;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.searchChat > img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 5px;
+}
+
+.searchChat__datasets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchChat__dataset {
+    margin: 20px;
+}
+
+.enterBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    border-radius: 50px;
+}

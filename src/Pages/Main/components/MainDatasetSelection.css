@@ -1,0 +1,16 @@
+.mainDatasetSelection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainDatasetSelection__history {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainDatasetSelection__selections {
+    display: flex;
+    gap: 10px;
+}
