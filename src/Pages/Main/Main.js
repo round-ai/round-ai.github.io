@@ -33,7 +33,7 @@ function Main() {
                     <p>End-to-End Data Preparation Service</p>
                 </div>
                 <div className="main__headerUserIcon base1_background">
-                    <p className="point1_color">HJ</p>
+                    <p className="point1_color">SH</p>
                 </div>
             </div>
 
