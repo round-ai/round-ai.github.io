@@ -5,10 +5,10 @@ import Round from '../Pages/Round/Round';
 
 function AppRouter() {
     return (
-        <BrowserRouter basename={"/"}>
+        <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Main/>}></Route>
-                <Route path="/round" element={<Round/>}></Route>
+                <Route exact path="/" element={<Main/>}></Route>
+                <Route exact path="/round" element={<Round/>}></Route>
             </Routes>
         </BrowserRouter>
     );
