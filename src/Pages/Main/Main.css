@@ -1,143 +1,30 @@
 .main__header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    /* z-index: 3; */
-    width: 100%;
-    box-sizing: border-box;
-    /* position: fixed; */
-    top: 0;
+    align-items: center;
+    padding: 10px 500px;
 }
 
-.main__headerTransition {
-    transition: padding 200ms ease-in, background-color 200ms linear;
+.main__headerLogo {
+    font-size: 25px;
 }
 
-.main__header--unscrolled {
-    padding: 30px 45px;
-    background-color: transparent;
-}
-
-.main__header--scrolled {
-    padding: 10px 20px;
-}
-
-.main__headerLogo > img {
-    width: 40px;
-    height: 40px;
-}
-
-.main__headerCenter {
+.main__title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 100px 0;
 }
 
-.main__headerCenter > img {
-    height: 25px;
-    padding: 10px;
+.main__mainTitle {
+    font-size: 40px;
 }
 
-.main__headerCenter > p {
-    font-size: 13px;
+.main__subTitle {
+    font-size: 15px;
 }
 
-.main__headerUserIcon {
-    border-radius: 50px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-}
-
-.main__headerUserIcon > p {
-    font-size: 20px;
-    text-align: center;
-    margin: auto;
-}
-
-.main__designBox {
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    z-index: -1;
-    filter: blur(180px);
-    top: 200px;
-}
-
-.main__slogan {
-    text-align: center;
-    margin-top: 300px;
-    margin-bottom: 200px;
-}
-
-.main__slogan > p {
-    font-size: 50px;
-    padding: 15px;
-}
-
-.main__shortExplanations {
-    width: 100%;
+.main__searchInput {
     display: flex;
     justify-content: center;
-}
-
-.main__shortExplanation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.main__shortExplanation > .MuiSvgIcon-root {
-    width: 40px;
-    height: 40px;
-}
-
-.main__bodyContentContainer {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 100px;
-}
-
-.main__bodyContentContainer > p {
-    font-size: 40px;
-    text-align: center;
-}
-
-.main__content {
-    width: 750px;
-}
-
-.main__preprocessingContent {
-    display: flex;
-    justify-content: space-between;
-}
-
-.main__preprocessingChats {
-    width: 50%;
-}
-
-.main__preprocessProperties {
-    border-radius: 15px;
-    padding: 15px 20px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.main__preprocessPropertyBody {
-    font-size: 20px;
-}
-
-.main__startButton > .MuiButton-root {
-    font-size: 40px;
-    color: white;
-    background-color: #88BAFF;
-    border-radius: 100px;
-    padding: 20px 40px;
 }

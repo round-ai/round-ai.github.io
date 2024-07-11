@@ -23,7 +23,6 @@ img {
 
 :root, html {
   box-sizing: border-box;
-  background-color: #262626;
 }
 
 /* font immports */
@@ -169,11 +168,11 @@ img {
 }
 
 .point2_color {
-  color: #88BAFF;
+  color: #5856D6;
 }
 
 .point2_background {
-  background-color: #88BAFF;
+  background-color: #5856D6;
 }
 
 .point1_color {
