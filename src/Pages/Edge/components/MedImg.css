@@ -30,7 +30,7 @@
     font-size: 15px;
     line-height: 15px;
     white-space: nowrap;
-  text-overflow: ellipsis;
+    text-overflow: ellipsis;
     color: #FFFFFF;
 }
 
@@ -43,7 +43,7 @@
     font-size: 11px;
     line-height: 4px;
     white-space: nowrap;
-  text-overflow: ellipsis;
+    text-overflow: ellipsis;
     color: #FFFFFF;
 }
 
