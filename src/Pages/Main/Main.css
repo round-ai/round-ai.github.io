@@ -1,30 +1,109 @@
 .main__header {
+    position: relative;
+    height: fit-content;
+    z-index: 1;
+}
+
+.main__headerBackground {
+    position: absolute;
+    width: 100vw;
+    height: 750px;
+    top: 0;
+    z-index: 0;
+    opacity: 20%;
+    object-fit: cover;
+}
+
+.main__headerTop {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 500px;
+    padding: 10px 20px;
 }
 
 .main__headerLogo {
-    font-size: 25px;
+    width: 35px;
+    height: 35px;
 }
 
-.main__title {
+.main__headerTopCenter {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px 0;
 }
 
-.main__mainTitle {
-    font-size: 40px;
+.main__headerTopCenterEdge {
+    font-size: 25px;
+    letter-spacing: 5px;
 }
 
-.main__subTitle {
+.main__headerTopCenterDescription {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.main__headerTopUserIcon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__headerTopUserIcon > p {
     font-size: 15px;
 }
 
-.main__searchInput {
+.main__headerSlogan {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0;
+}
+
+.main__headerSlogan > p {
+    text-align: center;
+    font-size: 50px;
+}
+
+.main__headerDetails {
     display: flex;
     justify-content: center;
+    gap: 15px;
+}
+
+.main__headerDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 240px;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.main__headerDetailIcon {
+    position: relative;
+}
+
+.main__headerDetailIconBox {
+    width: 35px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.main__headerDetailIconMain > .MuiSvgIcon-root {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.main__headerDetailTitle {
+    font-size: 20px;
+}
+
+.main__headerDetailDescription {
+    font-size: 15px;
 }
