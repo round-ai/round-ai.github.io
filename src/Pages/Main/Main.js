@@ -6,6 +6,11 @@ import SearchIcon from '@mui/icons-material/Search';
 import GavelIcon from '@mui/icons-material/Gavel';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 
+// component imports
+import DetailSearch from './components/DetailSearch';
+import DetailLaw from './components/DetailLaw';
+import DetailPreprocess from './components/DetailPreprocess';
+
 function Main() {
     return (
         <div className='main base2_background'>
@@ -53,7 +58,14 @@ function Main() {
                     </div>
                 </div>
             </div>
+
             <img className='main__headerBackground' src={process.env.PUBLIC_URL + '/images/main_background.png'} alt=''/>
+
+            <div className='main__details'>
+                <div className='main__detail'><DetailSearch /></div>
+                <div className='main__detail'><DetailLaw /></div>
+                <div className='main__detail'><DetailPreprocess /></div>
+            </div>
         </div>
     );
 }
