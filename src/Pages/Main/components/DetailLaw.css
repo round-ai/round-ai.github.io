@@ -1,0 +1,70 @@
+.detailLaw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.detailLaw__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.detailLaw__titleMain {
+    font-size: 30px;
+}
+
+.detailLaw__titleSub {
+    font-size: 15px;
+}
+
+.detailLaw__bodyTerms {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.detailLaw__bodyTerm {
+    width: 230px;
+}
+
+.detailLaw__bodyTermHeader {
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 15px;
+    position: relative;
+}
+
+.detailLaw__bodyTermHeaderCheck {
+    position: absolute;
+    left: 7px;
+    top: -6px;
+}
+
+.detailLaw__bodyTermHeaderCheck > .MuiSvgIcon-root {
+    width: 40px;
+    height: 40px;
+}
+
+.detailLaw__bodyTermHeaderCheckbox {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.detailLaw__bodyTermName {
+    font-size: 15px;
+}
+
+.detailLaw__bodyTermContent {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    border-radius: 0 0 10px 10px;
+}
