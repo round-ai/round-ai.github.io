@@ -1,0 +1,102 @@
+.detailPreprocess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.detailPreprocess__title {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detailPreprocess__titleMain {
+    font-size: 30px;
+}
+
+.detailPreprocess__titleSub {
+    font-size: 15px;
+}
+
+.detailPreprocess__body {
+    width: 750px;
+}
+
+.detailPreprocess__bodyHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.detailPreprocess__bodyCodes {
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.detailPreprocess__bodyCodeLine {
+    display: flex;
+    gap: 10px;
+}
+
+.detailPreprocess__bodyCodeLine > p {
+    font-size: 12px;
+}
+
+.detailPreprocess__bodyCodeLineNumber {
+    width: 20px;
+}
+
+.codeLine--tab1 {
+    margin-left: 2em;
+}
+
+.codeLine--tab2 {
+    margin-left: 4em;
+}
+
+.codeLine--tab3 {
+    margin-left: 6em;
+}
+
+.codeLine--tab4 {
+    margin-left: 8em;
+}
+
+.codeColor1 {
+    color: #569CD6;
+}
+
+.codeColor2 {
+    color: #FFD700;
+}
+
+.codeColor3 {
+    color: #9CDCFE;
+}
+
+.codeColor4 {
+    color: #B5CEA8;
+}
+
+.codeColor5 {
+    color: #DA70D6;
+}
+
+.codeColor6 {
+    color: #CE9178;
+}
+
+.codeColor7 {
+    color: #6AA94F;
+}
+
+.codeColor8 {
+    color: #DCDCAA;
+}

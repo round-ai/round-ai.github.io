@@ -5,6 +5,7 @@ import './Main.css';
 import SearchIcon from '@mui/icons-material/Search';
 import GavelIcon from '@mui/icons-material/Gavel';
 import VisibilityIcon from '@mui/icons-material/Visibility';
+import { Button } from '@mui/material';
 
 // component imports
 import DetailSearch from './components/DetailSearch';
@@ -65,6 +66,10 @@ function Main() {
                 <div className='main__detail'><DetailSearch /></div>
                 <div className='main__detail'><DetailLaw /></div>
                 <div className='main__detail'><DetailPreprocess /></div>
+            </div>
+
+            <div className='main__startButton'>
+                <Button href='/edge'><p className='poppins-medium'>Start EDGE!</p></Button>
             </div>
         </div>
     );
