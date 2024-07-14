@@ -1,3 +1,7 @@
+.main {
+    padding-bottom: 200px;
+}
+
 .main__header {
     position: relative;
     height: fit-content;
@@ -113,4 +117,27 @@
     display: flex;
     flex-direction: column;
     gap: 200px;
+}
+
+.main__startButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__startButton > .MuiButton-root {
+    width: 270px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 30px;
+    background-color: #5856D6;
+    text-transform: none;
+}
+
+.main__startButton > .MuiButton-root:hover {
+    background-color: #8A88FF
+}
+
+.main__startButton > .MuiButton-root > span {
+    color: #5856D6;
 }
