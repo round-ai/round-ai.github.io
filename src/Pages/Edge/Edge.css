@@ -1,0 +1,224 @@
+
+
+.edge__header {
+    position: fixed;
+    top: 0px;
+    height: 7vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.edge__headerTopCenterEdge {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+.edge__slogon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #262626;
+  margin-top: 155px;
+}
+.edge__slogon > h1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.edge__slogon > p{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #5856D6;
+  margin-top: 20px;
+}
+
+.edge__inputBox{
+  margin-top: 86px;
+  width: 750px;
+}
+
+.MuiTextField-root {
+  width: 750px;
+  height: 40px;
+  background: #323232;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.MuiInputBase-root {
+  height: 100%;
+}
+
+.edge__search__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; 
+}
+
+.edge__search__icons > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+} 
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: transparent !important;
+}
+
+
+.edge__filter {
+  position: relative;
+  background: #5B5B5B;
+  border-radius: 10px;
+  transition: height 0.6s ease;
+  height: 0; /* 처음에는 height 0으로 설정 */
+  overflow: hidden; /* 내용이 넘치지 않도록 설정 */
+  z-index: -1;
+  margin-top: -10px
+}
+  
+.visible {
+  height: 155px; /* 필터가 보일 때 height 설정 */
+  animation: blindDown 0.6s forwards;
+  z-index: 1;
+}
+
+.hidden {
+  animation: blindUp 0.6s forwards;
+}
+
+@keyframes blindDown {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes blindUp {
+  from {
+    clip-path: inset(0 0 0 0);
+  }
+  to {
+    clip-path: inset(0 0 100% 0);
+  }
+}
+  
+.dataset-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 30px 20px;
+}
+
+
+
+.edge__filter__container {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-top: 17px;
+  margin-left: 25px;
+}
+
+.edge__filter__content {
+  padding-top: 17px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.edge__filter__content__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 12px;
+  color: #FFFFFF;
+  width: 90px;
+  text-align: left;
+}
+
+.edge__filter__content > button {
+  background: #323232;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px;
+  
+  width: 36px;
+  height: 18px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 10px;
+  color: #FFFFFF;
+}
+
+.edge__filter__content > button.active {
+  background: #8A88FF;
+  border-radius: 5px;
+}
+
+.edge__selection {
+  position: fixed;
+  background: #5B5B5B;
+  right: 0px;
+  top: 7vh;
+  width: 215px;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+} 
+
+.edge__selection__buy {
+  width: 200px;
+  height: 45px;
+  background: #5856D6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} 
+
+.edge__selection__buy > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 15px;
+  color: #FFFFFF;
+}

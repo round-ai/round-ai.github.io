@@ -14,4 +14,4 @@ function AppRouter() {
     );
 }
 
-export default AppRouter
+export default AppRouter;
